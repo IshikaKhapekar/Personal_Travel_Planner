@@ -1,0 +1,38 @@
+PROMPT : I want to visit Delhi for 2 days with a budget of ₹10,000. I am interested in history and street food.
+
+RESPONSE :
+TRIP SUMMARY
+
+Destination: Delhi
+Duration: 2 days
+Budget: ₹10,000
+Interests: History, street food
+RECOMMENDED PLACES
+
+Red Fort (Lal Qila) — Iconic Mughal history and architecture
+Jama Masjid & Chandni Chowk — World-class street food and historic alleys
+Qutub Minar — UNESCO World Heritage site with stunning early Indo-Islamic architecture
+Humayun's Tomb — Stunning Mughal garden tomb that inspired the Taj Mahal
+India Gate & Rajpath — Iconic national monument surrounded by lawns
+Connaught Place / Janpath — Central hub for shopping and local bites
+ESTIMATED BUDGET (Assumption: 1 hotel night)
+
+Accommodation: ₹3,000 (₹3,000/night for a clean, centrally located budget hotel or hostel)
+Food: ₹2,000 (Ample room for trying famous street food and local meals)
+Local transport: ₹1,500 (Using the Delhi Metro and occasional auto-rickshaws/rideshares)
+Activities: ₹1,000 (Entry tickets for Red Fort, Qutub Minar, Humayun's Tomb)
+Miscellaneous: ₹1,000 (Bottled water, quick snacks, small souvenirs)
+Estimated Total: ₹8,500
+Budget Status: Within budget (Leaves a buffer of ₹1,500)
+DAY-WISE ITINERARY
+
+Day 1: Old Delhi Heritage & Street Food Feast
+
+Morning: Arrive, check into your hotel, and head straight to Old Delhi. Start your historical tour at the majestic Red Fort.
+Afternoon: Walk over to Jama Masjid, then dive into the bustling lanes of Chandni Chowk. Stop for a legendary street food lunch: try Paranthas at Paranthewali Gali and delicious dahi bhalla at Natraj Dahi Bhalle Wala.
+Evening: Take an electric rickshaw ride through the narrow alleys, then head towards Connaught Place for a relaxed dinner at a classic Delhi restaurant like Kake Hotel or Saravana Bhavan.
+Day 2: Imperial Monuments & Modern Delhi Bites
+
+Morning: Explore the towering Qutub Minar complex, a masterpiece of 12th-century architecture.
+Afternoon: Visit Humayun’s Tomb, the stunning precursor to the Taj Mahal. Grab a quick lunch of famous Delhi momos or rolls nearby.
+Evening: Stroll past India Gate to soak in the atmosphere as the sun sets and the monument lights up. Head to Khan Market or a local cafe for a final cup of chai before your departure.
