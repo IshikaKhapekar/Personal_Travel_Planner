@@ -1,4 +1,4 @@
-# Personal Travel Planner Agent
+<img width="1917" height="845" alt="Screenshot 2026-10-05 182107" src="https://github.com/user-attachments/assets/5349bc9b-b503-4923-98de-f5a024d960e9" /># Personal Travel Planner Agent
 
 ## Overview
 
@@ -47,41 +47,11 @@ The agent then:
 4. Compares the estimated cost with the given budget.
 5. Generates a day-wise itinerary.
 
-## Example Conversations
-
-### Conversation 1 - Jaipur
-
-User:
-
-I want to visit Jaipur for 3 days with a budget of ₹15,000. I like history and local food.
-
-Agent:
-
-The agent generates a 3-day itinerary focused on historical places and local food, recommends suitable attractions, provides an estimated budget, and compares the estimated cost with the user's budget.
-
-### Conversation 2 - Goa
-
-User:
-
-I want to visit Goa for 4 days with a budget of ₹25,000. I enjoy beaches, adventure activities, and local seafood.
-
-Agent:
-
-The agent generates a 4-day itinerary focused on beaches, adventure activities, and local seafood, along with recommended places and an estimated budget.
-
-### Conversation 3 - Delhi
-
-User:
-
-I want to visit Delhi for 2 days with a budget of ₹10,000. I am interested in history and street food.
-
-Agent:
-
-The agent generates a 2-day itinerary focused on historical attractions and street food, along with recommended places and an estimated budget.
 
 ## Example Input
 
 I want to visit Jaipur for 3 days with a budget of ₹15,000. I like history and local food.
+
 
 ## Expected Output
 
@@ -94,6 +64,28 @@ The agent provides:
 - Day-wise Itinerary
 
 The day-wise itinerary is organized into morning, afternoon, and evening activities.
+
+## Example Conversation Screenshots
+
+### 1: I want to visit Jaipur for 3 days with a budget of ₹15,000. I like history and local food.
+
+<img width="1912" height="955" alt="Screenshot 2026-10-05 174739" src="https://github.com/user-attachments/assets/57480316-a515-475b-af93-1ff22b72303b" />
+
+<img width="1898" height="842" alt="Screenshot 2026-10-05 174825" src="https://github.com/user-attachments/assets/593dc863-5b9f-4d1e-8e05-586d59652cbb" />
+
+### 2: I want to visit Goa for 4 days with a budget of ₹25,000. I enjoy beaches, adventure activities, and local seafood.
+
+<img width="1917" height="847" alt="Screenshot 2026-10-05 181949" src="https://github.com/user-attachments/assets/305a0152-1251-481f-b634-b8fca1858320" />
+
+<img width="1917" height="842" alt="Screenshot 2026-10-05 182000" src="https://github.com/user-attachments/assets/db772d69-da3e-4a6c-84a2-071c4bdb6a3f" />
+
+<img width="1917" height="847" alt="Screenshot 2026-10-05 182009" src="https://github.com/user-attachments/assets/a48066d0-5c04-477b-9b52-9df2a877c5c5" />
+
+### 3: I want to visit Delhi for 2 days with a budget of ₹10,000. I am interested in history and street food.
+
+<img width="1917" height="845" alt="Screenshot 2026-10-05 182107" src="https://github.com/user-attachments/assets/6fc5a914-3129-41ae-a08a-50435106b2d3" />
+
+<img width="1917" height="848" alt="Screenshot 2026-10-05 182129" src="https://github.com/user-attachments/assets/728aca5e-9046-40d8-967a-9c7774b4942a" />
 
 ## Note
 
