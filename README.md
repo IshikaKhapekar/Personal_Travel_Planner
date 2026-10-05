@@ -27,13 +27,22 @@ It takes a user's travel request and generates a simple, practical, and budget-c
 ```text
 Personal_Travel_Planner/
 │
-├── README.md
+├── agent.py
 ├── requirements.txt
+├── README.md
 │
-└── travel_planner/
-    ├── agent.py
-    ├── __init__.py
-    └── .gitignore
+├── examples/
+│   ├── conversation_1_jaipur.txt
+│   ├── conversation_2_goa.txt
+│   └── conversation_3_delhi.txt
+│
+└── screenshots/
+    ├── jaipur_1.png
+    ├── jaipur_2.png
+    ├── goa_1.png
+    ├── goa_2.png
+    ├── delhi_1.png
+    └── delhi_2.png
 ```
 
 ## How It Works
