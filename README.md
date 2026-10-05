@@ -32,7 +32,7 @@ Personal_Travel_Planner/
 └── travel_planner/
     ├── agent.py
     ├── __init__.py
-    └── .env
+    └── .gitignore
 
 ## How It Works
 
