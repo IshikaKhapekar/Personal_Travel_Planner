@@ -24,6 +24,7 @@ It takes a user's travel request and generates a simple, practical, and budget-c
 
 ## Project Structure
 
+```text
 Personal_Travel_Planner/
 │
 ├── README.md
@@ -33,6 +34,7 @@ Personal_Travel_Planner/
     ├── agent.py
     ├── __init__.py
     └── .gitignore
+```
 
 ## How It Works
 
