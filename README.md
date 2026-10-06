@@ -105,6 +105,47 @@ The agent provides:
 
 The day-wise itinerary is organized into morning, afternoon, and evening activities.
 
+
+### Guardrail Test Evidence
+
+#### 1. Harmful Request Blocked
+
+The agent blocks requests involving harmful or illegal instructions.
+
+
+<img width="1917" height="422" alt="security_harmful" src="https://github.com/user-attachments/assets/7a9329be-4485-47a2-9905-23b02b259ae6" />
+
+
+
+#### 2. Prompt Injection Blocked
+
+The agent prevents attempts to override its instructions or reveal internal prompts.
+
+
+<img width="1917" height="306" alt="security_prompt_injection" src="https://github.com/user-attachments/assets/e7f64c85-5919-4c14-8e0d-5af65c1e5e79" />
+
+
+
+#### 3. Off-Topic / Malicious Request Blocked
+
+The agent redirects requests that are outside its travel-planning scope.
+
+
+<img width="1917" height="357" alt="security_off_topic" src="https://github.com/user-attachments/assets/af498a2d-ae4d-4ce8-ae0a-844bb787c742" />
+
+
+
+#### 4. Sensitive Personal Information Blocked
+
+The agent blocks requests containing sensitive personal information such as exact home addresses.
+
+
+<img width="1915" height="606" alt="security_pii" src="https://github.com/user-attachments/assets/a10095a3-5f63-4804-9739-088f6af2ca53" />
+
+
+
+
+
 ## Example Conversation Screenshots
 
 ### 1: I want to visit Jaipur for 3 days with a budget of ₹15,000. I like history and local food.
