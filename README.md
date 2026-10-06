@@ -62,6 +62,11 @@ Personal_Travel_Planner/
     ├── goa_2.png
     ├── delhi_1.png
     └── delhi_2.png
+    │
+    ├── security_harmful.png
+    ├── security_prompt_injection.png
+    ├── security_off_topic.png
+    └── security_pii.png
 ```
 
 ## How It Works
