@@ -1,11 +1,13 @@
+# Personal Travel Planner Agent
 
 ## Overview
 
-The Personal Travel Planner Agent is an AI-powered travel planning agent built using Google ADK and Gemini.
+The **Personal Travel Planner Agent** is an AI-powered travel planning agent built using **Google ADK and Gemini**.
 
-It takes a user's travel request and generates a simple, practical, and budget-conscious travel plan based on the destination, duration, budget, and interests provided by the user.
+It takes a user's travel request and generates a practical, budget-conscious, day-wise travel plan based on the **destination, duration, budget, and interests** provided.
 
-## Features
+
+## Key Features
 
 - Understands natural-language travel requests
 - Identifies destination, duration, budget, and interests
@@ -13,8 +15,25 @@ It takes a user's travel request and generates a simple, practical, and budget-c
 - Creates a day-wise itinerary
 - Estimates the overall travel budget
 - Provides a category-wise budget breakdown
-- Compares the estimated cost with the user's budget
-- Provides a final structured travel plan
+- Compares estimated cost with the user's budget
+- Provides a structured final travel plan
+  
+
+## Security & Guardrails
+
+The agent includes multiple security layers to make it safer for real-world use:
+
+| Guardrail | Purpose |
+|---|---|
+| **Input Safety** | Blocks harmful, illegal, or malicious requests |
+| **Prompt Injection Protection** | Blocks attempts to override safety rules or reveal internal instructions |
+| **Travel Domain Control** | Keeps the agent focused on travel-related requests |
+| **PII Protection** | Blocks sensitive information such as passwords, API keys, financial details, government IDs, and exact home addresses |
+| **Output Safety** | Checks generated responses for clearly unsafe or harmful content |
+| **Safety Instructions** | Prevents exposure of credentials, internal instructions, and unnecessary personal information |
+
+The guardrails are implemented at both the **input and output stages** using Google ADK callbacks.
+
 
 ## Technology Used
 
@@ -47,15 +66,26 @@ Personal_Travel_Planner/
 
 ## How It Works
 
-The user provides a travel request containing details such as destination, number of days, budget, and interests.
+1. User provides a travel request.
+2. Input guardrails check the request for unsafe, malicious, prompt-injection, privacy, and scope-related issues.
+3. Valid travel requests are processed by the Gemini-powered agent.
+4. The agent recommends places and activities.
+5. The estimated budget is calculated and compared with the user's budget.
+6. A day-wise itinerary is generated.
+7. The output is checked by the output safety guardrail before being returned to the user.
+   
 
-The agent then:
+## Security Tests Performed
 
-1. Understands the user's requirements.
-2. Recommends suitable places and activities.
-3. Estimates the travel budget.
-4. Compares the estimated cost with the given budget.
-5. Generates a day-wise itinerary.
+The implemented guardrails were tested with:
+
+- ✅ Normal travel request
+- ✅ Harmful request
+- ✅ Prompt injection attempt
+- ✅ Off-topic / malicious request
+- ✅ Sensitive personal information / exact address
+
+The unsafe requests were blocked or redirected to safe travel assistance.
 
 
 ## Example Input
